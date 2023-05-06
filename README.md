@@ -1,2 +1,2 @@
 # Cosmetic Classification with CLIP Model
-Overview : Graduation project
+Overview : Graduation project for ITM Seoultech
