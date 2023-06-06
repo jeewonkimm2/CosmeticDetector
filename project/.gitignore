@@ -1,0 +1,46 @@
+# Python 가상 환경
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Django 설정 파일
+local_settings.py
+
+# 데이터베이스 파일
+*.sqlite3
+*.db
+
+# 로그 파일
+*.log
+
+# 바이너리 파일
+*.so
+*.dll
+
+# 캐시 파일
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# 테스트 결과 및 커버리지 보고서
+.coverage
+.htmlcov/
+
+# Django 스태틱 및 미디어 파일
+staticfiles/
+media/
+
+# IDE 및 텍스트 에디터 설정 파일
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.swn
+*.bak
+*~
