@@ -11,8 +11,6 @@ def process_video(request):
         data = json.loads(request.body)
         url = data.get("url")
 
-        print(url)
-
         transition_times = divide_video(url)
 
         print(transition_times)
