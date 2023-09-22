@@ -13,5 +13,5 @@ for key in brand_urls:
 
     new_df = create_dataframe_with_photos_and_price(brand_info_df)
 
-    save_to_csv(new_df, "products_list.csv")
     save_product_images_from_df(new_df)
+    save_to_csv(new_df, "products_list.csv")

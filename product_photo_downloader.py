@@ -58,12 +58,18 @@ def save_to_csv(df, filename):
     # 파일이 이미 존재하면 파일을 불러옴
     if os.path.exists(filename):
         existing_df = pd.read_csv(filename, encoding='utf-8-sig')
-        combined_df = pd.concat([existing_df, df[['brand_name', 'product_name']]], ignore_index=True)
+        
+        # 변경된 컬럼 정보를 반영하기 위해 저장할 데이터 구성
+        save_df = df.copy()
+        save_df['product_photo_url'] = df['product_photo_urls'].apply(lambda x: x[0] if x else None)
+        combined_df = pd.concat([existing_df, save_df[['brand_name', 'product_name', 'product_detail_url', 'product_price', 'product_photo_url']]], ignore_index=True)
     else:
-        combined_df = df[['brand_name', 'product_name']]
+        # 새로운 파일 생성하는 경우
+        df['product_photo_url'] = df['product_photo_urls'].apply(lambda x: x[0] if x else None)
+        combined_df = df[['brand_name', 'product_name', 'product_detail_url', 'product_price', 'product_photo_url']]
         
     # 중복 데이터 제거
-    combined_df.drop_duplicates(inplace=True)
+    combined_df = combined_df.drop_duplicates()
     
     # CSV 파일로 저장
     combined_df.to_csv(filename, index=False, encoding='utf-8-sig')
