@@ -14,6 +14,13 @@ def get_product_details(product_detail_url):
 
     photo_urls = [element.get('srcset').split('?')[0].split(' ')[0] for element in picture_elements]
 
+    # 만약 photo_urls의 element가 하나도 없다면 다른 element에서 url 가져오기
+    if not photo_urls:
+        div_element = soup.find('div', class_='css-1a2dflv eanm77i0')
+        if div_element:
+            img_element = div_element.find('img', class_='css-1rovmyu eanm77i0')
+            photo_urls.append(img_element['src'].split('?')[0])
+
     # 가격 정보 가져오기
     price_element = soup.select_one("span.css-18jtttk > b.css-0")
     price = price_element.text if price_element else None
