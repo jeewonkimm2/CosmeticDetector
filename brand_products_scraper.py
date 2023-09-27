@@ -34,7 +34,6 @@ def get_brand_and_product_info(html_content):
 
         product_name_element = product_element.find('span', class_='ProductTile-name')
 
-        product_names.append(product_name_element.text)
         product_links.append(product_element['href'])
     
     return brand_name_element.text, product_names, product_links, button_exists
@@ -53,9 +52,9 @@ def fetch_brand_and_product_info(brand_links, existing_products):
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246")
-        driver = webdriver.Chrome(service=Service(
-            ChromeDriverManager().install()), options=options)
-        # driver = webdriver.Chrome(options=options)
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        driver = webdriver.Chrome(options=options)
             
         driver.get(full_url)
         
