@@ -16,6 +16,12 @@ def make_directory_name_safe(name):
     
     return safe_name
 
+def load_existing_products(filename):
+    if os.path.exists(filename):
+        return pd.read_csv(filename, encoding='utf-8-sig')
+    else:
+        return pd.DataFrame(columns=['brand_name', 'product_name'])
+    
 # photo url에서 특정 위치에 사진 저장
 def download_image_from_url(url, save_path):
     headers = {
