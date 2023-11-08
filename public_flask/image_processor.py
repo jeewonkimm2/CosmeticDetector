@@ -7,7 +7,7 @@ class ImageProcessor:
     def __init__(self):
         pass
 
-    def extract_unique_brands(csv_path):
+    def extract_unique_brands(self, csv_path):
         df = pd.read_csv(csv_path)
         brand_list = df['brand_name'].unique().tolist()
         brand_list = [brand.replace(" ", "").replace(
