@@ -85,7 +85,7 @@ def cleanup_and_upload(save_path, brand_with_image, cropped_images_folder_path):
 def perform_api_inference(save_path, class_names, csv_path):
     # API를 사용하여 추론 수행
     API_communicator = APICommunicator()
-    api_url = "http://10.100.20.226:8000/find_cosmetic"
+    api_url = "http://10.100.20.170:8000/find_cosmetic"
     response_data = API_communicator.send_post_request_to_api(
         api_url, save_path, class_names)
 
