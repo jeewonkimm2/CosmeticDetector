@@ -1,5 +1,5 @@
 import os
-import youtube_dl
+import yt_dlp as youtube_dl
 import cv2
 import uuid
 
