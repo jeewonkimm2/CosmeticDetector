@@ -3,12 +3,12 @@ import cv2
 from ultralytics import YOLO
 
 
-class CosmeticDetector:
+class CosmeticFinder:
     _instance = None
 
     def __new__(cls, *args, **kwargs):
         if not cls._instance:
-            cls._instance = super(CosmeticDetector, cls).__new__(cls)
+            cls._instance = super(CosmeticFinder, cls).__new__(cls)
         return cls._instance
 
     def __init__(self, model_path):

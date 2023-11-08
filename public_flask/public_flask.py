@@ -1,4 +1,4 @@
-from cosmetic_detector import CosmeticDetector
+from cosmetic_finder import CosmeticFinder
 from transcript_brand_extractor import TranscriptBrandExtractor
 from image_brand_extractor import ImageBrandExtractor
 from s3_utils import S3Utils
@@ -46,7 +46,7 @@ def detect_brands_in_frames(save_path):
     save_dir = os.path.join(save_path, 'cropped_image')
     frames_folder_path = os.path.join(save_path, 'frames')
     yolo_model_path = 'YOLO.pt'
-    detector = CosmeticDetector(yolo_model_path)
+    detector = CosmeticFinder(yolo_model_path)
     detector.process_folder(frames_folder_path, save_dir)
     return save_dir
 
