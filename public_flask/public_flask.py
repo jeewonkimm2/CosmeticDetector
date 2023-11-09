@@ -105,7 +105,7 @@ def analyze_video(youtube_link):
         video_path, save_path, transition_times)
     cropped_images_folder_path = detect_brands_in_frames(save_path)
     brand_with_image = extract_and_compare_brands(
-        youtube_link, brand_list, save_path, cropped_images_folder_path, transition_times)
+        youtube_link, brand_list, cropped_images_folder_path, transition_times)
     class_names = cleanup_and_upload(
         save_path, brand_with_image, cropped_images_folder_path)
     result = perform_api_inference(save_path, class_names, csv_path)
