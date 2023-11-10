@@ -7,7 +7,7 @@ class APICommunicator:
         pass
 
     def send_post_request_to_api(self, api_url, save_path, class_names):
-        data_to_send = {'path': save_path, 'class_names': class_names}
+        data_to_send = {'save_path': save_path, 'class_names': class_names}
         headers = {'Content-Type': 'application/json'}
 
         try:
