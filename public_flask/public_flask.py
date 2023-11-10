@@ -71,6 +71,8 @@ def cleanup_and_upload(save_path, brand_with_image, cropped_images_folder_path):
     # 정리 및 업로드
     image_processor = ImageProcessor()
     class_names = list({item['brand_name'] for item in brand_with_image})
+
+    print(class_names)
     image_processor.copy_images_to_new_folder(
         brand_with_image, cropped_images_folder_path, save_path)
     image_processor.delete_except_APE_folder(save_path)
