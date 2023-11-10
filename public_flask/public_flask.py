@@ -89,6 +89,8 @@ def perform_api_inference(save_path, class_names, csv_path):
     response_data = API_communicator.send_post_request_to_api(
         api_url, save_path, class_names)
 
+    print(response_data)
+
     data_handler = DataHandler()
     product_info_list = data_handler.read_csv_to_list(csv_path)
     result = data_handler.get_matching_products(
