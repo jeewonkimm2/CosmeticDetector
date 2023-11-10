@@ -7,7 +7,7 @@ class DataHandler:
 
     def read_csv_to_list(self, csv_path):
         product_info_list = []
-        with open(csv_path, mode='r', encoding='utf-8') as file:
+        with open(csv_path, mode='r', encoding='utf-8-sig') as file:
             reader = csv.DictReader(file)
             for row in reader:
                 product_info_list.append(row)
