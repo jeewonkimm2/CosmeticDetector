@@ -59,11 +59,14 @@ def extract_and_compare_brands(youtube_link, brand_list, cropped_images_folder_p
 
 
 def cleanup_and_upload(save_path, brand_with_image, cropped_images_folder_path):
+    for item in brand_with_image:
+        item['brand_name'] = brand_mapping.get(
+            item['brand_name'], item['brand_name'])
     class_names = list({item['brand_name'] for item in brand_with_image})
 
     print(class_names)
     image_processor.copy_images_to_new_folder(
-        brand_with_image, cropped_images_folder_path, save_path, brand_mapping)
+        brand_with_image, cropped_images_folder_path, save_path)
     image_processor.delete_except_APE_folder(save_path)
 
     bucket_name = 'cosmetic-detector-bucket'
