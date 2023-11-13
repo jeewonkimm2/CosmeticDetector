@@ -11,13 +11,13 @@ import os
 import shutil
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import csv
 
 
 def prepare_environment():
     # 환경 설정 및 brand 리스트 준비
-    csv_path = 'products_list.csv'
-    brand_list = image_processor.extract_unique_brands(csv_path)
-    return brand_list, csv_path
+    brand_list = list(brand_mapping.keys())
+    return brand_list
 
 
 def process_video(youtube_link):
@@ -85,8 +85,23 @@ def perform_api_inference(save_path, class_names, csv_path):
     return result
 
 
+def create_brand_mapping():
+    csv_path = 'products_list.csv'
+
+    brand_mapping = {}
+    with open(csv_path, mode='r', encoding='utf-8-sig') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            brand_name = row['brand_name']
+            brand_mapping[brand_name.replace(" ", "").replace(
+                "-", "").replace("&", "").replace(".", "").replace("+", "").lower()] = brand_name
+
+    return brand_mapping
+
+
 def analyze_video(youtube_link):
-    brand_list, csv_path = prepare_environment()
+    csv_path = 'products_list.csv'
+    brand_list = prepare_environment()
     save_path, video_path, transition_times = process_video(
         youtube_link)
     extract_frames(
@@ -116,6 +131,7 @@ data_handler = DataHandler()
 imageExtractor = ImageBrandExtractor()
 transcriptExtractor = TranscriptBrandExtractor()
 s3_utils = S3Utils()
+brand_mapping = create_brand_mapping()
 
 
 @app.route('/analyze', methods=['POST'])
