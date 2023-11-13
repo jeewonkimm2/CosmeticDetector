@@ -63,7 +63,7 @@ def cleanup_and_upload(save_path, brand_with_image, cropped_images_folder_path):
 
     print(class_names)
     image_processor.copy_images_to_new_folder(
-        brand_with_image, cropped_images_folder_path, save_path)
+        brand_with_image, cropped_images_folder_path, save_path, brand_mapping)
     image_processor.delete_except_APE_folder(save_path)
 
     bucket_name = 'cosmetic-detector-bucket'
@@ -79,15 +79,12 @@ def perform_api_inference(save_path, class_names, csv_path):
 
     print(response_data)
 
-    product_info_list = data_handler.read_csv_to_list(csv_path)
     result = data_handler.get_matching_products(
         response_data, product_info_list)
     return result
 
 
-def create_brand_mapping():
-    csv_path = 'products_list.csv'
-
+def create_brand_mapping(csv_path):
     brand_mapping = {}
     with open(csv_path, mode='r', encoding='utf-8-sig') as file:
         reader = csv.DictReader(file)
@@ -100,7 +97,6 @@ def create_brand_mapping():
 
 
 def analyze_video(youtube_link):
-    csv_path = 'products_list.csv'
     brand_list = prepare_environment()
     save_path, video_path, transition_times = process_video(
         youtube_link)
@@ -131,7 +127,10 @@ data_handler = DataHandler()
 imageExtractor = ImageBrandExtractor()
 transcriptExtractor = TranscriptBrandExtractor()
 s3_utils = S3Utils()
-brand_mapping = create_brand_mapping()
+
+csv_path = 'products_list.csv'
+brand_mapping = create_brand_mapping(csv_path)
+product_info_list = data_handler.read_csv_to_list(csv_path)
 
 
 @app.route('/analyze', methods=['POST'])
