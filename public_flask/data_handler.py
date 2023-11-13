@@ -22,8 +22,8 @@ class DataHandler:
 
         # brand_name과 product_name이 일치하는 항목 찾기
         for product_info in product_info_list:
-            if (product_info['brand_name'].lower() == response_data['brand_name'].lower() and
-                    product_info['product_name'].lower() == response_data['product_name'].lower()):
+            if (product_info['brand_name'] == response_data['brand_name'] and
+                    product_info['product_name'] == response_data['product_name']):
                 matching_products.append(product_info)
 
         return matching_products if matching_products else "No matching product found in the list."
