@@ -7,13 +7,6 @@ class ImageProcessor:
     def __init__(self):
         pass
 
-    def extract_unique_brands(self, csv_path):
-        df = pd.read_csv(csv_path)
-        brand_list = df['brand_name'].unique().tolist()
-        brand_list = [brand.replace(" ", "").replace(
-            "-", "").replace("&", "").replace(".", "").replace("+", "").lower() for brand in brand_list]
-        return brand_list
-
     def extract_time_from_filename(self, filename, transition_times):
         try:
             # Extracts index from filename like 'frame_0-1.jpg'
