@@ -824,7 +824,7 @@ def find_cosmetic():
         return jsonify({"error": "class_names should be a list"}), 400
 
     bucket_name = 'cosmetic-detector-bucket'
-    prefix = os.path.join('.', save_path)
+    prefix = save_path
     local_directory = os.getcwd()
     download_directory_from_s3(bucket_name, prefix, local_directory)
 
