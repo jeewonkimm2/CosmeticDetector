@@ -738,6 +738,8 @@ def test(cfg, cache_keys, cache_values, test_features, clip_weights, cls):
 def download_directory_from_s3(bucket_name, prefix, local_directory):
     s3 = boto3.client('s3')
 
+    prefix_to_exclude = os.path.join(prefix, 'APE_inference/')
+
     paginator = s3.get_paginator('list_objects_v2')
     for result in paginator.paginate(Bucket=bucket_name, Prefix=prefix):
         if 'Contents' in result:
@@ -746,9 +748,9 @@ def download_directory_from_s3(bucket_name, prefix, local_directory):
                 request_key = obj['Key']
                 if request_key.endswith('/'):  # 디렉토리 스킵
                     continue
-                # save_path 는 이미 앞서 os.path.join을 통해 결합된 상태라고 가정합니다.
+
                 request_key_formatted = request_key.replace(
-                    prefix, '', 1) if request_key.startswith(prefix) else request_key
+                    prefix_to_exclude, '', 1)
                 local_file_path = os.path.join(
                     local_directory, request_key_formatted.strip('/'))
                 local_file_dir = os.path.dirname(local_file_path)
