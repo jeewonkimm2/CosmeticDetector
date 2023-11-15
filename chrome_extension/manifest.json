@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Cosmetic Detector",
+    "version": "1.0",
+    "description": "Detect the cosmetic products in YouTube videos",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "http://cosmetic-detector.shop:8000/analyze"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "host_permissions": [
+        "http://cosmetic-detector.shop:8000/analyze"
+    ]
+}
