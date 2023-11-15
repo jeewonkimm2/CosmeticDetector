@@ -1,0 +1,32 @@
+augment_epoch: 10
+backbone: ViT-B/32
+best_alpha: 0
+best_beta: 0
+best_gamma: 0
+cache_dir: ./caches/JuicyCouture
+dataset: JuicyCouture
+eps: 0.001
+feat_num: 500
+init_alpha: 2
+init_beta: 1
+init_gamma: 0.1
+lr: 0.0001
+root_path: data
+search_hp: true
+search_scale:
+- 7
+- 7
+- 0.5
+search_step:
+- 200
+- 20
+- 5
+seed: 3407
+shots: 1
+train_epoch: 20
+w_training:
+- 0.2
+- 0.8
+w_training_free:
+- 0.7
+- 0.3
