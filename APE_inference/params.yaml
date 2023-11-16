@@ -1,0 +1,948 @@
+ABBOTT:
+  alpha: 6.654999999999999
+  beta: 6.379
+AERIN:
+  alpha: 6.654999999999999
+  beta: 4.2745
+ALO:
+  alpha: 6.31
+  beta: 5.5165
+ALTERNAHaircare:
+  alpha: 6.654999999999999
+  beta: 5.965
+AcquadiParma:
+  alpha: 6.654999999999999
+  beta: 2.6875
+ActAcre:
+  alpha: 6.654999999999999
+  beta: 2.7910000000000004
+Algenist:
+  alpha: 6.654999999999999
+  beta: 6.6895
+AlphaH:
+  alpha: 6.654999999999999
+  beta: 5.6545000000000005
+AmiCole:
+  alpha: 6.654999999999999
+  beta: 4.654
+AnastasiaBeverlyHills:
+  alpha: 6.654999999999999
+  beta: 6.448
+Aquis:
+  alpha: 0.1
+  beta: 0.1
+ArmaniBeauty:
+  alpha: 6.654999999999999
+  beta: 6.2755
+ArtistCouture:
+  alpha: 6.654999999999999
+  beta: 6.241
+AtelierCologne:
+  alpha: 0.1
+  beta: 0.1
+AugustinusBader:
+  alpha: 6.654999999999999
+  beta: 5.1370000000000005
+Azzaro:
+  alpha: 6.654999999999999
+  beta: 2.7565000000000004
+BASMA:
+  alpha: 0.1
+  beta: 0.1
+BREADBEAUTYSUPPLY:
+  alpha: 6.654999999999999
+  beta: 2.722
+BURBERRY:
+  alpha: 6.654999999999999
+  beta: 5.0335
+BeautyBio:
+  alpha: 6.654999999999999
+  beta: 4.171
+BenefitCosmetics:
+  alpha: 6.654999999999999
+  beta: 6.9655000000000005
+BioIonic:
+  alpha: 6.654999999999999
+  beta: 5.2405
+Biossance:
+  alpha: 6.654999999999999
+  beta: 6.241
+Blinc:
+  alpha: 6.31
+  beta: 4.8955
+BobbiBrown:
+  alpha: 6.654999999999999
+  beta: 5.896
+BonParfumeur:
+  alpha: 6.654999999999999
+  beta: 5.585500000000001
+BondiBoost:
+  alpha: 6.654999999999999
+  beta: 4.757499999999999
+BoySmells:
+  alpha: 6.654999999999999
+  beta: 2.722
+Briogeo:
+  alpha: 6.654999999999999
+  beta: 5.8614999999999995
+Bumbleandbumble:
+  alpha: 6.654999999999999
+  beta: 6.379
+Buxom:
+  alpha: 6.654999999999999
+  beta: 4.171
+ByRosieJane:
+  alpha: 6.654999999999999
+  beta: 6.206499999999999
+CANOPY:
+  alpha: 6.654999999999999
+  beta: 2.17
+CATEGORYJEE:
+  alpha: 6.654999999999999
+  beta: 3.4810000000000003
+CAYSKIN:
+  alpha: 6.654999999999999
+  beta: 4.8955
+CHANEL:
+  alpha: 6.654999999999999
+  beta: 6.31
+CLEANRESERVE:
+  alpha: 6.654999999999999
+  beta: 4.239999999999999
+CLINIQUE:
+  alpha: 6.654999999999999
+  beta: 6.8275
+COLORWOW:
+  alpha: 6.654999999999999
+  beta: 6.4825
+COOLA:
+  alpha: 6.654999999999999
+  beta: 6.0685
+CalvinKlein:
+  alpha: 6.654999999999999
+  beta: 2.5495
+CarolinaHerrera:
+  alpha: 6.654999999999999
+  beta: 5.585500000000001
+Caudalie:
+  alpha: 6.654999999999999
+  beta: 5.585500000000001
+Ceremonia:
+  alpha: 6.654999999999999
+  beta: 6.551499999999999
+CharlotteTilbury:
+  alpha: 6.654999999999999
+  beta: 6.724
+Chloe:
+  alpha: 6.654999999999999
+  beta: 4.654
+ChristopheRobin:
+  alpha: 0.1
+  beta: 0.1
+CiateLondon:
+  alpha: 0.1
+  beta: 0.1
+CinemaSecrets:
+  alpha: 6.654999999999999
+  beta: 4.654
+Clarins:
+  alpha: 6.654999999999999
+  beta: 5.6545000000000005
+Commodity:
+  alpha: 6.654999999999999
+  beta: 4.516
+CommunitySixtySix:
+  alpha: 6.31
+  beta: 6.034
+CrownAffair:
+  alpha: 6.654999999999999
+  beta: 2.8945
+Curlsmith:
+  alpha: 6.654999999999999
+  beta: 5.551
+DAMDAM:
+  alpha: 6.654999999999999
+  beta: 5.758
+DERMAFLASH:
+  alpha: 6.654999999999999
+  beta: 3.4810000000000003
+DOMINIQUECOSMETICS:
+  alpha: 0.1
+  beta: 0.1
+DUO:
+  alpha: 0.1
+  beta: 0.1
+DanessaMyricksBeauty:
+  alpha: 6.654999999999999
+  beta: 4.239999999999999
+DeborahLippmann:
+  alpha: 0
+  beta: 0
+DedCool:
+  alpha: 6.654999999999999
+  beta: 5.2059999999999995
+Dermalogica:
+  alpha: 6.654999999999999
+  beta: 6.620500000000001
+Dior:
+  alpha: 6.654999999999999
+  beta: 6.172
+DolceGabbana:
+  alpha: 6.654999999999999
+  beta: 5.9995
+DonnaKaran:
+  alpha: 6.654999999999999
+  beta: 5.3095
+DrBarbaraSturm:
+  alpha: 6.654999999999999
+  beta: 4.6884999999999994
+DrBrandtSkincare:
+  alpha: 6.654999999999999
+  beta: 6.551499999999999
+DrDennisGrossSkincare:
+  alpha: 6.654999999999999
+  beta: 5.965
+DrJart:
+  alpha: 6.654999999999999
+  beta: 4.2745
+DrLaraDevganScientificBeauty:
+  alpha: 6.654999999999999
+  beta: 4.033
+DrZenoviaSkincare:
+  alpha: 6.654999999999999
+  beta: 6.3445
+DrunkElephant:
+  alpha: 6.654999999999999
+  beta: 5.585500000000001
+Drybar:
+  alpha: 6.31
+  beta: 6.654999999999999
+Dyson:
+  alpha: 6.654999999999999
+  beta: 5.2405
+EADEM:
+  alpha: 6.31
+  beta: 6.137499999999999
+EightBob:
+  alpha: 0.1
+  beta: 0.1
+EllisBrooklyn:
+  alpha: 6.654999999999999
+  beta: 6.9655000000000005
+EsteeLauder:
+  alpha: 6.654999999999999
+  beta: 5.068
+Evian:
+  alpha: 6.654999999999999
+  beta: 5.827
+FOREO:
+  alpha: 6.654999999999999
+  beta: 4.999
+FORVRMood:
+  alpha: 6.654999999999999
+  beta: 4.585
+FableMane:
+  alpha: 6.654999999999999
+  beta: 4.378
+FaceGym:
+  alpha: 6.654999999999999
+  beta: 3.7915000000000005
+Farmacy:
+  alpha: 6.654999999999999
+  beta: 5.2749999999999995
+FashionFair:
+  alpha: 6.654999999999999
+  beta: 2.17
+FentyBeautybyRihanna:
+  alpha: 6.654999999999999
+  beta: 6.620500000000001
+FentySkin:
+  alpha: 6.654999999999999
+  beta: 5.6545000000000005
+FirstAidBeauty:
+  alpha: 6.654999999999999
+  beta: 6.8965000000000005
+FloraBast:
+  alpha: 5.2749999999999995
+  beta: 6.551499999999999
+FloralStreet:
+  alpha: 6.654999999999999
+  beta: 5.9995
+FreckBeauty:
+  alpha: 6.654999999999999
+  beta: 6.31
+FunctionofBeautyPRO:
+  alpha: 6.654999999999999
+  beta: 4.4125
+GLOScience:
+  alpha: 6.654999999999999
+  beta: 3.136
+GUERLAIN:
+  alpha: 6.654999999999999
+  beta: 3.4120000000000004
+GXVEBYGWENSTEFANI:
+  alpha: 6.654999999999999
+  beta: 4.309
+Gisou:
+  alpha: 5.965
+  beta: 4.1365
+Givenchy:
+  alpha: 6.654999999999999
+  beta: 6.448
+Glamnetic:
+  alpha: 6.654999999999999
+  beta: 3.7225
+Glossier:
+  alpha: 5.965
+  beta: 6.172
+GlowRecipe:
+  alpha: 6.654999999999999
+  beta: 4.8265
+GraceEleyae:
+  alpha: 6.654999999999999
+  beta: 5.827
+GrandeCosmetics:
+  alpha: 6.654999999999999
+  beta: 6.7585
+Gucci:
+  alpha: 6.654999999999999
+  beta: 5.827
+HABIT:
+  alpha: 0.1
+  beta: 0.1
+HAUSLABSBYLADYGAGA:
+  alpha: 6.654999999999999
+  beta: 5.3785
+HERETIC:
+  alpha: 6.654999999999999
+  beta: 5.1370000000000005
+HERMES:
+  alpha: 6.654999999999999
+  beta: 6.448
+HUDABEAUTY:
+  alpha: 6.654999999999999
+  beta: 5.1370000000000005
+Hanni:
+  alpha: 6.654999999999999
+  beta: 4.654
+HenryRose:
+  alpha: 5.62
+  beta: 5.758
+Herbivore:
+  alpha: 6.654999999999999
+  beta: 4.723
+HigherDOSE:
+  alpha: 6.654999999999999
+  beta: 2.86
+Hourglass:
+  alpha: 6.654999999999999
+  beta: 6.7585
+HouseofLashes:
+  alpha: 0.1
+  beta: 0.1
+HyperSkin:
+  alpha: 3.5500000000000003
+  beta: 5.965
+IGK:
+  alpha: 6.654999999999999
+  beta: 6.654999999999999
+ILIA:
+  alpha: 6.654999999999999
+  beta: 4.033
+INCredible:
+  alpha: 6.654999999999999
+  beta: 3.4810000000000003
+ITCosmetics:
+  alpha: 6.654999999999999
+  beta: 3.8605
+IconicLondon:
+  alpha: 6.654999999999999
+  beta: 6.551499999999999
+IsleofParadise:
+  alpha: 6.654999999999999
+  beta: 6.3445
+JIMMYCHOO:
+  alpha: 6.654999999999999
+  beta: 5.343999999999999
+JLoBeauty:
+  alpha: 6.654999999999999
+  beta: 5.965
+JVN:
+  alpha: 6.654999999999999
+  beta: 6.8275
+JackBlack:
+  alpha: 6.654999999999999
+  beta: 6.793
+JillianDempsey:
+  alpha: 0.1
+  beta: 0.1
+JoMaloneLondon:
+  alpha: 6.654999999999999
+  beta: 5.1715
+JosieMaran:
+  alpha: 6.654999999999999
+  beta: 4.2745
+JouerCosmetics:
+  alpha: 6.654999999999999
+  beta: 6.4135
+JuicyCouture:
+  alpha: 6.654999999999999
+  beta: 3.895
+JulietteHasaGun:
+  alpha: 6.654999999999999
+  beta: 6.2755
+K18BiomimeticHairscience:
+  alpha: 6.654999999999999
+  beta: 4.239999999999999
+KAYALI:
+  alpha: 6.654999999999999
+  beta: 4.999
+KILIANParis:
+  alpha: 6.654999999999999
+  beta: 5.758
+KORAOrganics:
+  alpha: 6.654999999999999
+  beta: 5.9995
+KORRES:
+  alpha: 6.654999999999999
+  beta: 5.758
+KVDBeauty:
+  alpha: 6.654999999999999
+  beta: 5.896
+Kaja:
+  alpha: 6.654999999999999
+  beta: 4.8265
+KateMcLeod:
+  alpha: 6.654999999999999
+  beta: 2.1010000000000004
+KateSomerville:
+  alpha: 6.654999999999999
+  beta: 5.9995
+Kerastase:
+  alpha: 6.654999999999999
+  beta: 5.068
+KiehlsSince1851:
+  alpha: 6.654999999999999
+  beta: 6.7585
+Kopari:
+  alpha: 0.1
+  beta: 0.1
+Kosas:
+  alpha: 6.654999999999999
+  beta: 5.551
+Kulfi:
+  alpha: 6.654999999999999
+  beta: 4.1365
+LANEIGE:
+  alpha: 6.654999999999999
+  beta: 5.8614999999999995
+LAWLESS:
+  alpha: 6.654999999999999
+  beta: 3.9640000000000004
+LOccitane:
+  alpha: 6.654999999999999
+  beta: 5.6545000000000005
+LOrealProfessionnel:
+  alpha: 6.654999999999999
+  beta: 5.068
+LOrealProfessionnelSteampod:
+  alpha: 6.654999999999999
+  beta: 0.27249999999999996
+LYSBeauty:
+  alpha: 6.654999999999999
+  beta: 4.792
+LaMer:
+  alpha: 6.654999999999999
+  beta: 3.6535
+Lancome:
+  alpha: 6.654999999999999
+  beta: 5.1370000000000005
+LauraMercier:
+  alpha: 6.654999999999999
+  beta: 5.3785
+LillyLashes:
+  alpha: 6.654999999999999
+  beta: 6.4825
+LionPose:
+  alpha: 0.1
+  beta: 0.1
+LivingProof:
+  alpha: 6.654999999999999
+  beta: 6.724
+LoveShackFancy:
+  alpha: 5.965
+  beta: 5.7924999999999995
+LunaDaily:
+  alpha: 6.654999999999999
+  beta: 6.517
+MACRENEactives:
+  alpha: 6.654999999999999
+  beta: 2.7565000000000004
+MAKEUPBYMARIO:
+  alpha: 6.654999999999999
+  beta: 4.239999999999999
+MAKEUPFOREVER:
+  alpha: 6.654999999999999
+  beta: 6.103000000000001
+MARA:
+  alpha: 6.654999999999999
+  beta: 5.1370000000000005
+MATTEROFFACT:
+  alpha: 6.654999999999999
+  beta: 2.515
+MERIT:
+  alpha: 6.654999999999999
+  beta: 5.827
+MILKMAKEUP:
+  alpha: 6.654999999999999
+  beta: 5.896
+MaisonLouisMarie:
+  alpha: 6.654999999999999
+  beta: 6.31
+MaisonMargiela:
+  alpha: 6.654999999999999
+  beta: 6.206499999999999
+MangoPeople:
+  alpha: 6.654999999999999
+  beta: 6.8275
+MarcJacobsFragrances:
+  alpha: 6.654999999999999
+  beta: 5.9305
+MarioBadescu:
+  alpha: 6.654999999999999
+  beta: 5.9305
+MelaninHaircare:
+  alpha: 6.654999999999999
+  beta: 3.5155000000000003
+MeltCosmetics:
+  alpha: 6.654999999999999
+  beta: 5.068
+Mizani:
+  alpha: 6.654999999999999
+  beta: 5.2749999999999995
+Montblanc:
+  alpha: 6.654999999999999
+  beta: 4.5504999999999995
+MoonJuice:
+  alpha: 6.654999999999999
+  beta: 1.48
+Moroccanoil:
+  alpha: 6.654999999999999
+  beta: 6.551499999999999
+MountLai:
+  alpha: 6.654999999999999
+  beta: 4.171
+Mugler:
+  alpha: 6.654999999999999
+  beta: 6.4825
+Murad:
+  alpha: 6.654999999999999
+  beta: 5.2749999999999995
+NAILSINC:
+  alpha: 6.654999999999999
+  beta: 2.86
+NARS:
+  alpha: 6.654999999999999
+  beta: 5.9305
+NESTNewYork:
+  alpha: 6.654999999999999
+  beta: 6.6895
+NUDESTIX:
+  alpha: 6.654999999999999
+  beta: 6.517
+NatashaDenona:
+  alpha: 6.654999999999999
+  beta: 6.551499999999999
+NaturallySerious:
+  alpha: 6.654999999999999
+  beta: 6.172
+Necessaire:
+  alpha: 6.654999999999999
+  beta: 4.102
+Nette:
+  alpha: 6.654999999999999
+  beta: 3.688
+NuFACE:
+  alpha: 6.654999999999999
+  beta: 4.8265
+NurseJamie:
+  alpha: 0.1
+  beta: 0.1
+Nutrafol:
+  alpha: 6.654999999999999
+  beta: 4.378
+OLEHENRIKSEN:
+  alpha: 6.654999999999999
+  beta: 5.585500000000001
+ONESIZEbyPatrickStarrr:
+  alpha: 6.654999999999999
+  beta: 5.068
+OTHERLAND:
+  alpha: 6.654999999999999
+  beta: 4.9645
+OUAI:
+  alpha: 6.654999999999999
+  beta: 6.137499999999999
+OUIthePeople:
+  alpha: 6.654999999999999
+  beta: 3.5155000000000003
+Olaplex:
+  alpha: 6.31
+  beta: 2.4805
+Oribe:
+  alpha: 6.654999999999999
+  beta: 5.3785
+Origins:
+  alpha: 6.654999999999999
+  beta: 5.758
+Overose:
+  alpha: 0.1
+  beta: 0.1
+PATMcGRATHLABS:
+  alpha: 6.654999999999999
+  beta: 3.5845000000000007
+PATRICKTA:
+  alpha: 6.654999999999999
+  beta: 5.7924999999999995
+PATTERNbyTraceeEllisRoss:
+  alpha: 6.654999999999999
+  beta: 1.7905000000000002
+PHLUR:
+  alpha: 6.654999999999999
+  beta: 4.239999999999999
+PMD:
+  alpha: 6.654999999999999
+  beta: 3.688
+PROVENSkincare:
+  alpha: 0.1
+  beta: 0.1
+PaulasChoice:
+  alpha: 6.654999999999999
+  beta: 5.9305
+PeaceOut:
+  alpha: 6.31
+  beta: 3.7570000000000006
+PeterThomasRoth:
+  alpha: 6.654999999999999
+  beta: 3.895
+Prada:
+  alpha: 6.654999999999999
+  beta: 4.2745
+Prima:
+  alpha: 6.654999999999999
+  beta: 2.998
+Pureology:
+  alpha: 5.965
+  beta: 6.6895
+RANAVAT:
+  alpha: 6.654999999999999
+  beta: 2.446
+REFY:
+  alpha: 6.654999999999999
+  beta: 4.102
+RENCleanSkincare:
+  alpha: 6.654999999999999
+  beta: 3.1705
+RIES:
+  alpha: 6.654999999999999
+  beta: 2.446
+ROSEINC:
+  alpha: 6.654999999999999
+  beta: 4.585
+ROSEIngletonMD:
+  alpha: 6.654999999999999
+  beta: 4.033
+Rabanne:
+  alpha: 6.654999999999999
+  beta: 4.9645
+Rahua:
+  alpha: 0.1
+  beta: 0.1
+RalphLauren:
+  alpha: 6.654999999999999
+  beta: 4.6195
+RareBeautybySelenaGomez:
+  alpha: 6.654999999999999
+  beta: 6.2755
+Reverie:
+  alpha: 6.654999999999999
+  beta: 4.378
+RosebudPerfumeCo:
+  alpha: 6.654999999999999
+  beta: 5.551
+RossanoFerrettiParma:
+  alpha: 6.654999999999999
+  beta: 6.0685
+SEPHORACOLLECTION:
+  alpha: 6.654999999999999
+  beta: 4.5504999999999995
+SHAZKIKS:
+  alpha: 6.654999999999999
+  beta: 3.205
+SIMIHAZEBEAUTY:
+  alpha: 6.654999999999999
+  beta: 2.6185000000000005
+SKII:
+  alpha: 6.654999999999999
+  beta: 5.7924999999999995
+SKYLAR:
+  alpha: 6.31
+  beta: 6.793
+SOBELSKINRx:
+  alpha: 6.654999999999999
+  beta: 3.619
+SUNDAYIISUNDAY:
+  alpha: 6.654999999999999
+  beta: 5.0335
+Saie:
+  alpha: 6.654999999999999
+  beta: 6.620500000000001
+SaintJaneBeauty:
+  alpha: 6.654999999999999
+  beta: 4.8265
+SephoraFavorites:
+  alpha: 6.654999999999999
+  beta: 5.6545000000000005
+ShaniDardenSkinCare:
+  alpha: 6.654999999999999
+  beta: 4.447
+SharkBeauty:
+  alpha: 6.654999999999999
+  beta: 6.6895
+Shiseido:
+  alpha: 6.654999999999999
+  beta: 6.8275
+SkinLaundry:
+  alpha: 0.1
+  beta: 0.1
+Skinfix:
+  alpha: 6.654999999999999
+  beta: 5.8614999999999995
+Slip:
+  alpha: 6.654999999999999
+  beta: 5.2749999999999995
+Smashbox:
+  alpha: 6.654999999999999
+  beta: 6.724
+SmileMakers:
+  alpha: 6.654999999999999
+  beta: 6.172
+SoldeJaneiro:
+  alpha: 6.654999999999999
+  beta: 5.4475
+SoleilToujours:
+  alpha: 6.654999999999999
+  beta: 5.2749999999999995
+Sourse:
+  alpha: 0.1
+  beta: 0.1
+StTropez:
+  alpha: 6.654999999999999
+  beta: 5.758
+StriVectin:
+  alpha: 6.654999999999999
+  beta: 5.3095
+Stripes:
+  alpha: 6.654999999999999
+  beta: 3.8605
+Sulwhasoo:
+  alpha: 6.654999999999999
+  beta: 3.2395
+SummerFridays:
+  alpha: 6.654999999999999
+  beta: 6.2755
+SundayRiley:
+  alpha: 6.654999999999999
+  beta: 5.1715
+Supergoop:
+  alpha: 6.654999999999999
+  beta: 5.8614999999999995
+Susteau:
+  alpha: 6.654999999999999
+  beta: 2.4805
+T3:
+  alpha: 4.585
+  beta: 5.3785
+TANLUXE:
+  alpha: 6.654999999999999
+  beta: 3.3430000000000004
+TOCCA:
+  alpha: 6.654999999999999
+  beta: 2.9290000000000003
+TOMFORD:
+  alpha: 6.654999999999999
+  beta: 5.896
+TULASkincare:
+  alpha: 6.654999999999999
+  beta: 4.102
+TWEEZERMAN:
+  alpha: 6.654999999999999
+  beta: 4.516
+Tabu:
+  alpha: 0.1
+  beta: 0.1
+TataHarper:
+  alpha: 6.654999999999999
+  beta: 6.6895
+Tatcha:
+  alpha: 6.654999999999999
+  beta: 5.4475
+The7Virtues:
+  alpha: 6.654999999999999
+  beta: 4.8265
+TheINKEYList:
+  alpha: 6.654999999999999
+  beta: 6.241
+TheMaker:
+  alpha: 6.654999999999999
+  beta: 3.5155000000000003
+TheNueCo:
+  alpha: 6.654999999999999
+  beta: 5.827
+TheOrdinary:
+  alpha: 6.654999999999999
+  beta: 3.5845000000000007
+TheOriginalMakeUpEraser:
+  alpha: 6.654999999999999
+  beta: 6.8965000000000005
+TheOutset:
+  alpha: 6.654999999999999
+  beta: 4.8955
+TooFaced:
+  alpha: 6.654999999999999
+  beta: 2.86
+Topicals:
+  alpha: 6.654999999999999
+  beta: 4.4815
+Touchland:
+  alpha: 6.654999999999999
+  beta: 3.895
+Tower28Beauty:
+  alpha: 6.654999999999999
+  beta: 3.3085000000000004
+UrbanDecay:
+  alpha: 6.654999999999999
+  beta: 5.482
+VOLUSPA:
+  alpha: 6.654999999999999
+  beta: 5.9305
+Valentino:
+  alpha: 6.654999999999999
+  beta: 6.172
+Vegamour:
+  alpha: 6.654999999999999
+  beta: 6.8275
+VelourLashes:
+  alpha: 6.654999999999999
+  beta: 4.6884999999999994
+Verb:
+  alpha: 6.654999999999999
+  beta: 3.1015000000000006
+Versace:
+  alpha: 6.654999999999999
+  beta: 5.619999999999999
+ViktorRolf:
+  alpha: 6.654999999999999
+  beta: 4.6884999999999994
+VioletVoss:
+  alpha: 6.654999999999999
+  beta: 3.7570000000000006
+Viori:
+  alpha: 6.654999999999999
+  beta: 3.895
+Virtue:
+  alpha: 6.654999999999999
+  beta: 6.586
+Viseart:
+  alpha: 6.654999999999999
+  beta: 5.9305
+WASO:
+  alpha: 6.31
+  beta: 6.034
+WanderBeauty:
+  alpha: 6.654999999999999
+  beta: 4.999
+WestmanAtelier:
+  alpha: 6.654999999999999
+  beta: 4.8955
+Wishful:
+  alpha: 6.654999999999999
+  beta: 4.2745
+WorldofChrisCollins:
+  alpha: 6.31
+  beta: 1.7215000000000003
+YouthToThePeople:
+  alpha: 6.654999999999999
+  beta: 2.998
+YvesSaintLaurent:
+  alpha: 6.654999999999999
+  beta: 5.6545000000000005
+_1969:
+  alpha: 6.654999999999999
+  beta: 3.1705
+_54Thrones:
+  alpha: 6.654999999999999
+  beta: 2.86
+_5SENS:
+  alpha: 6.654999999999999
+  beta: 4.516
+adwoabeauty:
+  alpha: 6.654999999999999
+  beta: 3.4465000000000003
+alpynbeauty:
+  alpha: 6.654999999999999
+  beta: 6.3445
+amika:
+  alpha: 6.654999999999999
+  beta: 4.8955
+bareMinerals:
+  alpha: 6.654999999999999
+  beta: 3.7915000000000005
+beautyblender:
+  alpha: 6.654999999999999
+  beta: 4.3435
+belif:
+  alpha: 6.654999999999999
+  beta: 4.6884999999999994
+caliray:
+  alpha: 6.654999999999999
+  beta: 3.5845000000000007
+ciele:
+  alpha: 6.654999999999999
+  beta: 2.653
+dae:
+  alpha: 6.654999999999999
+  beta: 3.8605
+fresh:
+  alpha: 6.654999999999999
+  beta: 5.7924999999999995
+ghd:
+  alpha: 6.654999999999999
+  beta: 4.861
+goop:
+  alpha: 6.654999999999999
+  beta: 4.757499999999999
+iNNBEAUTYPROJECT:
+  alpha: 6.654999999999999
+  beta: 4.447
+innisfree:
+  alpha: 6.654999999999999
+  beta: 6.448
+maude:
+  alpha: 6.654999999999999
+  beta: 4.9645
+philosophy:
+  alpha: 0.1
+  beta: 0.1
+shuuemura:
+  alpha: 6.654999999999999
+  beta: 6.9655000000000005
+stila:
+  alpha: 6.654999999999999
+  beta: 4.2055
+superzero:
+  alpha: 6.654999999999999
+  beta: 3.9295000000000004
+tarte:
+  alpha: 6.654999999999999
+  beta: 5.343999999999999

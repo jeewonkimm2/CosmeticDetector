@@ -1,0 +1,61 @@
+body {
+    width: 300px;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ff7eb6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff4d94;
+}
+
+.product-card {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    /* 추가된 스타일 */
+    border-radius: 5px;
+    /* 추가된 스타일 */
+    overflow: hidden;
+    /* 추가된 스타일 */
+}
+
+.product-card img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.product-info {
+    padding-left: 10px;
+    width: 50%;
+}
+
+.product-info h3 {
+    color: #ff7eb6;
+    margin: 0;
+}
+
+.product-info p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.product-info a {
+    color: #ff7eb6;
+    text-decoration: none;
+}
+
+.product-info a:hover {
+    text-decoration: underline;
+}
