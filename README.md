@@ -4,7 +4,7 @@
 <br>
  
 ### 🐥 Seoultech ITM department Capstone Project 🐥
-👉🏻 [Our Presentation Video](https://drive.google.com/file/d/1nBbSmmqPLuH43dU5907tE9yJf-xMMag2/view?usp=sharing)
+👉🏻 [Our Presentation Video](https://youtu.be/17ZWxOchDlA?si=vMjdAFSxPiowanm1)
 
 <br>
 
